@@ -40,7 +40,7 @@ For this test, you'll need to:
 ### Test 2 - Summing the price of the items in the register
 
 * Keep your code from the previous test
-* Write a function named `getTotal` to sum to the prices of all the items from all of the transactions
+* Write a function named `getTotal` to sum the prices of all the items from all of the transactions
     * Note that items have a quantity!
     * Reference the format of the above object
 
