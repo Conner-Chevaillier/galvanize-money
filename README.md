@@ -4,5 +4,7 @@ These drills ask you to solve cash register problems using basic programming ski
 
 ## Standard
 
+```
 |- Demonstrate proficiency in a programming language 
     |- Use basic programming skills to solve problems
+```
