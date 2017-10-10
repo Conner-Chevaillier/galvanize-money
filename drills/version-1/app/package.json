@@ -4,7 +4,7 @@
   "description": "Basic programming assessment",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "npm test"
   },
   "keywords": [
     "assessment"

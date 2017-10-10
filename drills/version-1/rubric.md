@@ -1,3 +1,5 @@
+Passing requires all items
+
 ## Functional
 
 * [ ] Can add objects to the register array
@@ -8,4 +10,4 @@
 
 * [ ] Descriptive variable names
 * [ ] Proper indentation
-* [ ] Appropriate use of methods
+* [ ] Consistent semi-colon usage
