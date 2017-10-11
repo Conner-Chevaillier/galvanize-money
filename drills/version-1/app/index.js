@@ -1,9 +1,10 @@
 // Your code here
 
 module.exports = {
-    register,
-    addTransaction,
-    getTotal,
-    getFormattedTotal,
-    reset,
+    // Uncomment these as you define them
+    // register,
+    // addTransaction,
+    // getTotal,
+    // getFormattedTotal,
+    // reset,
 };
