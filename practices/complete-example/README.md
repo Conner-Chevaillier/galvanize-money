@@ -49,28 +49,3 @@ For this test, you'll need to:
 * Keep your code from the previous test
 * Write a function named `getFormattedTotal` that returns the total formatted as a string with 2 decimal places
     * Reuse your existing `getTotal` function
-
-### Test 4 - Counting the sales of a particular item
-
-* Keep your code from the previous test
-* Write a function named `countSalesOfType` to get the sales count of all the items matching a passed in parameter like "Mittens"
-    * Note that items have a quantity!
-    * Reference the format of the above object
-
-### Test 5 - Getting the transactions between two dates
-
-* Keep your code from the previous test
-* Write a function named `getTransactionsBetween` that returns an array of all transactions between two dates
-    * Dates are passed in as strings in `YYYY-MM-DD` format
-    * Reference the format of the above object
-
-### Test 6 - Getting a transaction for a particular salesperson
-
-* Keep your code from the previous test
-* Write a function named `getTransactionsBySalesperson` that takes a salesperson's name to get an array of all of a particular salesperson's transactions
-    * Reference the format of the above object
-
-### Test 7 - Removing the latest transaction
-
-* Keep your code from the previous test
-* Write a function named `removeLastTransaction` that removes the most recently added transaction from the register
