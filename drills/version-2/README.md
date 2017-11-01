@@ -8,6 +8,7 @@ You are writing a cash register application for a clothing store. Your job is to
 1. Run `npm install`
 1. Run `npm test` - you should see a bunch of failing tests. Your goal is to get them to pass!
 1. Add your code to the existing `app/index.js` file
+1. Include a screenshot of all passing tests with your submission
 
 ### Test 1 - Adding a transaction to the register
 
