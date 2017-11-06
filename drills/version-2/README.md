@@ -49,5 +49,6 @@ For this test, you'll need to:
 
 * Keep your code from the previous test
 * Write a function named `getTransactionsBetween` that returns an array of all transactions between two dates
-    * Dates are passed in as strings in `YYYY-MM-DD` format
+    * The function should accept two parameters
+    * These parameters will be Dates passed in as strings in `YYYY-MM-DD` format
     * Reference the format of the above object
