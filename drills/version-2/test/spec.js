@@ -48,8 +48,23 @@ describe("Galvanize Money", () => {
                 quantity: 1
             }]
         });
-        assert.equal(yourCode.countSalesOfType("Mittens"), 2, "It should should count Mittens correctly");
-        assert.equal(yourCode.countSalesOfType("Hat"), 1, "It should should count correctly");
+        yourCode.addTransaction({
+            date: new Date("2017-01-01"),
+            cashier: "Kim",
+            items: [{
+                id: 3,
+                price: 1.00,
+                description: "Mittens",
+                quantity: 4
+            },{
+                id: 4,
+                price: 20.00,
+                description: "Coat",
+                quantity: 2
+            }]
+        });
+        assert.equal(yourCode.countSalesOfType("Mittens"), 6, "It should should count Mittens correctly");
+        assert.equal(yourCode.countSalesOfType("Hat"), 3, "It should should count correctly");
     });
     it("can return all transactions between two dates", () => {
         assert.equal(typeof yourCode.getTransactionsBetween, "function", "You need a function called getTransactionsBetween");
