@@ -17,7 +17,7 @@ describe("Galvanize Money", () => {
                 price: 1.00,
                 description: "Mittens",
                 quantity: 1
-            },{
+            }, {
                 id: 2,
                 price: 2.00,
                 description: "Hat",
@@ -40,7 +40,7 @@ describe("Galvanize Money", () => {
                 price: 1.00,
                 description: "Mittens",
                 quantity: 1
-            },{
+            }, {
                 id: 2,
                 price: 2.30,
                 description: "Hat",
@@ -58,7 +58,7 @@ describe("Galvanize Money", () => {
                 price: 1.00,
                 description: "Mittens",
                 quantity: 3
-            },{
+            }, {
                 id: 2,
                 price: 2.00,
                 description: "Hat",
